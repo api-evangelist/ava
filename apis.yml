@@ -1,18 +1,45 @@
 aid: ava
 name: Ava
-description: 'Ava is a company surfaced as a portfolio company of greylock and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Ava is a consumer financial-technology company that helps people build credit
+  and reduce the cost of debt. Its products include the Ava Credit Builder
+  Mastercard (a no-interest card usable at approved subscription merchants), a
+  Save & Build secured savings loan, and rent and utility payment reporting to
+  the three major U.S. credit bureaus (TransUnion, Equifax, Experian). Ava
+  operates as a mobile app on a subscription model and partners with regulated
+  banks and lenders (including Patriot Bank, N.A. and Pier Lending) to deliver
+  its products. This profile was surfaced as a Greylock portfolio company and
+  enriched by the API Evangelist pipeline; Ava is a consumer app and does not
+  publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/ava/refs/heads/main/apis.yml
 x-type: company
 x-source: greylock-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/64535b38dcff96926602d822/6489585aa9277d495f50890f_Home%20%2B%20Primary.webp
 tags:
 - Company
 - Fintech
+- Credit Building
+- Consumer Finance
+- Credit Score
+- Personal Finance
+- Lending
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.meetava.com/
+- type: Blog
+  url: https://www.meetava.com/blog
+- type: Pricing
+  url: https://www.meetava.com/pricing
+- type: Support
+  url: https://www.meetava.com/contact
+- type: HelpCenter
+  url: https://www.meetava.com/faqs
+- type: TermsOfService
+  url: https://www.meetava.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.meetava.com/legal/privacy
+- type: DomainSecurity
+  url: security/ava-domain-security.yml
+- type: TrustCenter
+  url: security/ava-trust-center.yml
+- type: Compliance
+  url: https://www.meetava.com/legal/security
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
