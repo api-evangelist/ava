@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+source: https://www.meetava.com/legal/security
+url: https://www.meetava.com/legal/security
+certifications:
+- SOC 2
+- ISO 27001
+- PCI DSS
+- NIST CSF
+notes: >-
+  Ava publishes a security page stating its program is grounded in NIST CSF,
+  ISO 27001, PCI-DSS, and SOC 2 and is independently audited to ensure
+  compliance. Customer data is protected with 256-bit encryption. Banking and
+  processing partners named include Patriot Bank, N.A. (card issuer), Priority
+  Technology Holdings, and Pier Lending LLC. No published vulnerability
+  disclosure program or dedicated security contact was found.
+evidence:
+- source: https://www.meetava.com/legal/security
+  keywords: [soc 2, iso 27001, pci-dss, nist csf, 256-bit encryption, independently audited]
